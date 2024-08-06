@@ -272,7 +272,8 @@ set_1 = {
     'Serbia',
     'Finland',
     'Germany',
-    'Japan'
+    'Japan',
+    'United States of America'
 }
 for country in set_1:
     print(country)
