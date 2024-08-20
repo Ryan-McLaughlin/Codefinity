@@ -9,8 +9,19 @@ class Program
         
         ListDeclaration();
 
+        ListMethods();
+
         Console.WriteLine();
         Console.WriteLine();
+    }
+
+    static void ListMethods()
+    {
+        Console.WriteLine("***********************************************************");
+        Console.WriteLine("* List Methods");
+        Console.WriteLine("***********************************************************");
+        Console.WriteLine();
+
     }
 
     static void ListDeclaration()
@@ -25,6 +36,7 @@ class Program
         foreach (int num in numbers)
             Console.Write(num + " ");
 
+        Console.WriteLine();
         Console.WriteLine();
     }
 
